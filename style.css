@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+  line-height: 1.4;
+}
+.site-header {
+  padding: 20px 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+}
+.site-header nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  padding: 120px 40px 40px;
+}
+.projects-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s;
+}
+.projects-grid img:hover {
+  transform: scale(1.03);
+}
+h3 { margin-top: 8px; font-size: 18px; }
+.info {
+  padding: 120px 40px;
+  max-width: 600px;
+}
